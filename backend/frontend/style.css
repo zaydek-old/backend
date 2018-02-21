@@ -1,0 +1,64 @@
+html {
+	font-size: 1.25rem; /* rem */
+}
+
+body {
+	margin: 2rem auto;
+	padding: 1rem;
+	width: 414px;
+	background-color: #fff;
+	border-radius: 0.1rem;
+
+	font-family: Roboto, sans-serif;
+	color: #5d5d5d;
+}
+
+h1 {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+input,
+button {
+	margin: 0.1rem;
+	padding: 0.25rem 0.5rem;
+}
+
+input {
+	width: 100%;
+	background-color: #f6faff;
+	border-radius: 0.25em;
+}
+
+input::placeholder {
+	color: #dbd9ff;
+}
+
+.btn-1,
+.btn-2,
+.btn-3 {
+	background-color: #bdbdbd;
+	border-radius: 100px; /* max */
+}
+
+.btn-1 {
+	color: white;
+	background-color: #938fff;
+
+	padding: 0rem 0.5rem; /* reset */
+	font-size: 0.75rem;
+	letter-spacing: 0.1rem;
+	font-weight: 700;
+}
+
+.btn-2 {
+	color: white;
+	background-color: #928fff;
+
+	width: 100%;
+	font-weight: 700;
+}
+
+.btn-3 {
+	background-color: #f7f7f7;
+}
